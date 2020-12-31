@@ -1,5 +1,4 @@
 #!/bin/bash
-# 这个脚本来自 github，删掉了一些 ** 言论。
 
 osascript -e 'tell application "iTerm2" to version' > /dev/null 2>&1 && NAME=iTerm2 || NAME=iTerm
 if [[ $NAME = "iTerm" ]]; then
